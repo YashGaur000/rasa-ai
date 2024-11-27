@@ -165,4 +165,45 @@ nlu:
     - Is e-Stamping the only option in Delhi now?
     - Can I still use traditional Stamp papers in Delhi?
 
+- intent: explain_registration_process
+  examples: |
+    - What is the process for registration of the rental deed in Delhi?
+    - Can you explain the registration process for a lease/rental deed?
+    - How do I register a lease/rental deed in Delhi?
+    - Tell me the procedure for registering a lease/rental deed in Delhi.
+
+- intent: registration_charges
+  examples: |
+    - What are the charges related to registration of a rental deed?
+    - How much does it cost to register a lease in Delhi?
+    - What are the charges for registration based on the rental duration?
+    - How is the Stamp paper cost calculated for registration?
+
+- intent: owner_documents_for_registration
+  examples: |
+    - What documents does the owner need for registration?
+    - What documents are required from the owner for registration of a rental deed?
+    - Tell me about the documents that the owner needs to present for registration.
+    - What ID proofs are needed from the owner for registration?
+
+- intent: tenant_documents_for_registration
+  examples: |
+    - What documents does the tenant need for registration?
+    - What documents are required from the tenant for registering the lease?
+    - Tell me about the documents the tenant needs to present for registration.
+    - What ID proofs are required from the tenant for the lease registration?
+
+- intent: company_rep_for_registration
+  examples: |
+    - What documents are needed if a company represents a tenant for lease registration?
+    - If a company registers a lease, what documents does the representative need to bring?
+    - What authorization is needed if a person represents a company for lease registration?
+
+- intent: power_of_attorney_registration
+  examples: |
+    - Do I need a Power of Attorney for lease registration?
+    - When is a Power of Attorney needed for registration of a rental deed?
+    - What is the role of Power of Attorney in registration of lease?
+
+
 

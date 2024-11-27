@@ -113,3 +113,32 @@ stories:
   - intent: conventional_stamp_paper
   - action: utter_conventional_stamp_paper
 
+- story: User asks about registration process for rental deed
+  steps:
+  - intent: explain_registration_process
+  - action: utter_explain_registration_process
+
+- story: User inquires about registration charges
+  steps:
+  - intent: registration_charges
+  - action: utter_registration_charges
+
+- story: User asks about documents required from the owner for registration
+  steps:
+  - intent: owner_documents_for_registration
+  - action: utter_owner_documents_for_registration
+
+- story: User asks about documents required from the tenant for registration
+  steps:
+  - intent: tenant_documents_for_registration
+  - action: utter_tenant_documents_for_registration
+
+- story: User inquires about documents for company representative in lease registration
+  steps:
+  - intent: company_rep_for_registration
+  - action: utter_company_rep_for_registration
+
+- story: User asks about the need for Power of Attorney in registration
+  steps:
+  - intent: power_of_attorney_registration
+  - action: utter_power_of_attorney_registration

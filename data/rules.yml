@@ -113,3 +113,32 @@ rules:
   - intent: conventional_stamp_paper
   - action: utter_conventional_stamp_paper
 
+- rule: Explain registration process for rental deed
+  steps:
+  - intent: explain_registration_process
+  - action: utter_explain_registration_process
+
+- rule: Provide information on registration charges
+  steps:
+  - intent: registration_charges
+  - action: utter_registration_charges
+
+- rule: Inform about owner documents for registration
+  steps:
+  - intent: owner_documents_for_registration
+  - action: utter_owner_documents_for_registration
+
+- rule: Inform about tenant documents for registration
+  steps:
+  - intent: tenant_documents_for_registration
+  - action: utter_tenant_documents_for_registration
+
+- rule: Explain company representative document requirements
+  steps:
+  - intent: company_rep_for_registration
+  - action: utter_company_rep_for_registration
+
+- rule: Explain need for Power of Attorney in registration
+  steps:
+  - intent: power_of_attorney_registration
+  - action: utter_power_of_attorney_registration
