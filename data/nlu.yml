@@ -28,6 +28,18 @@ nlu:
     - Tell me about the historical importance of Delhi.
     - Why is Delhi's past rich?
     - Are there historical places in Delhi?
+    - What are the historical landmarks in Delhi?
+    - What makes Delhi historically significant?
+    - Why is Delhi considered a historical city?
+    - Can you share some famous historical sites in Delhi?
+    - Which monuments in Delhi are historically important?
+    - How did Delhi's history shape the city?
+    - What are the key historical events in Delhi?
+    - What historical landmarks can I visit in Delhi?
+    - How does Delhi’s past influence the present?
+    - What are the best historical places to visit in Delhi?
+    - Why is Delhi known for its historical heritage?
+
 
 - intent: climate_activity
   examples: |
@@ -35,6 +47,19 @@ nlu:
     - Is Delhi's climate pleasant?
     - Does Delhi have a lot of activity and buzz?
     - Why is Delhi known for its active lifestyle?
+    - What is the weather like in Delhi throughout the year?
+    - Does Delhi have extreme weather conditions?
+    - How does the weather affect daily life in Delhi?
+    - Is Delhi known for being very hot during summers?
+    - How humid is the weather in Delhi?
+    - How does the climate impact outdoor activities in Delhi?
+    - What kind of outdoor events take place in Delhi?
+    - What activities are popular in Delhi during the winter season?
+    - Is Delhi's climate suitable for outdoor sports?
+    - How does the weather influence the culture of Delhi?
+    - What are the best seasons to visit Delhi based on climate?
+    - How does Delhi's climate compare to other cities in India?
+
 
 - intent: job_opportunities
   examples: |
@@ -45,12 +70,27 @@ nlu:
 
 - intent: draft_rental_agreement
   examples: |
-    - How to draft a rental agreement?
-    - Tell me the steps to create a rental agreement.
-    - What is the process for drafting a rental agreement?
-    - How do I draft a rental agreement?
-    - Explain the steps for drafting a rental agreement.
-    - Guide me on preparing a rental agreement.
+    - How do I start drafting a rental agreement?
+    - What information should I include in a rental agreement?
+    - Can you guide me through drafting a rental agreement step-by-step?
+    - How should I begin writing a rental agreement?
+    - What are the essential details for a rental agreement draft?
+    - How do I structure a rental agreement?
+    - What format should a rental agreement follow?
+    - Should I mention the rent amount in the rental agreement draft?
+    - How do I write the rental agreement for both landlord and tenant?
+    - What is the first step to create a rental agreement?
+    - Can you provide a template for drafting a rental agreement?
+    - What should the rental agreement include regarding the duration of tenancy?
+    - How do I mention the maintenance responsibilities in a rental agreement?
+    - What are the important clauses to add in the draft rental agreement?
+    - Should I include details about the security deposit in the draft?
+    - How do I write a draft for rent increase clauses in a rental agreement?
+    - Should the draft rental agreement mention the notice period?
+    - How do I specify the payment terms in a rental agreement?
+    - What legal formalities should I include in the rental agreement draft?
+    - How do I ensure the rental agreement draft is legally valid?
+
 
 - intent: discuss_rental_details
   examples: |
