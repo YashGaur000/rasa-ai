@@ -1,0 +1,90 @@
+version: "3.1"
+
+intents:
+  - greet
+  - inquire_rental_agreement_procedure
+  - inquire_stamp_duty
+  - inquire_e_stamping
+  - inquire_registration
+  - inquire_rental_clauses
+  - inquire_notarization
+  - inquire_rental_types
+  - inquire_tenant_verification
+  - inquire_deposit_token_advance
+  - inquire_penalties_consequences
+  - ask_make_online_rental_agreement
+
+responses:
+  utter_greet:
+  - text: "Hello! How can I assist you today?"
+
+  utter_explain_rental_procedure:
+  - text: "The rental agreement procedure in Delhi involves drafting the agreement, paying the required stamp duty, and registering it at the sub-registrar's office."
+
+  utter_explain_stamp_duty:
+  - text: "Stamp duty is a tax paid to the government for the rental agreement. In Delhi, it typically depends on the property type and rent amount."
+
+  utter_explain_e_stamping:
+  - text: "E-stamping is an online process to pay stamp duty. It ensures security and authenticity for rental agreements."
+
+  utter_explain_registration:
+  - text: "To register a rental agreement, visit the sub-registrar's office with the necessary documents, including ID proofs, property details, and stamp duty receipt."
+
+  utter_explain_rental_clauses:
+  - text: "Important rental clauses include rent amount, security deposit, duration, maintenance responsibilities, and notice period."
+
+  utter_explain_notarization:
+  - text: "Notarization is optional in most cases but adds credibility to the rental agreement by verifying the identities of the parties involved."
+
+  utter_explain_rental_types:
+  - text: "Common rental types include commercial, residential, and sub-letting agreements."
+
+  utter_explain_tenant_verification:
+  - text: "Tenant verification involves providing identity proof, rental history, and a police verification report."
+
+  utter_explain_deposit_token:
+  - text: "A deposit is a refundable amount paid as security, while a token advance is a non-refundable confirmation payment."
+
+  utter_explain_penalties:
+  - text: "Non-compliance penalties may include eviction, fines, or legal action, depending on the agreement terms."
+
+  utter_explain_online_agreement:
+  - text: "Online rental agreements can be created through e-stamping and submission of required documents on government-approved platforms."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+# intents:
+#   - greet
+#   - goodbye
+#   - affirm
+#   - deny
+#   - mood_great
+#   - mood_unhappy
+#   - bot_challenge
+
+# responses:
+#   utter_greet:
+#   - text: "Hey! How are you?"
+
+#   utter_cheer_up:
+#   - text: "Here is something to cheer you up:"
+#     image: "https://i.imgur.com/nGF1K8f.jpg"
+
+#   utter_did_that_help:
+#   - text: "Did that help you?"
+
+#   utter_happy:
+#   - text: "Great, carry on!"
+
+#   utter_goodbye:
+#   - text: "Bye"
+
+#   utter_iamabot:
+#   - text: "I am a bot, powered by Rasa."
+
+# session_config:
+#   session_expiration_time: 60
+#   carry_over_slots_to_new_session: true

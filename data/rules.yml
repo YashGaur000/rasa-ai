@@ -1,0 +1,115 @@
+version: "3.1"
+
+rules:
+- rule: Greet and provide information about Delhi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: city_description
+  - action: utter_city_description
+
+- rule: Respond to metro city queries
+  steps:
+  - intent: metro_city
+  - action: utter_metro_status
+
+- rule: Respond to questions about government buildings
+  steps:
+  - intent: govt_buildings
+  - action: utter_govt_buildings
+
+- rule: Respond to historical significance queries
+  steps:
+  - intent: historical_significance
+  - action: utter_historical_places
+
+- rule: Respond to climate and activity queries
+  steps:
+  - intent: climate_activity
+  - action: utter_climate_activity
+
+- rule: Respond to job opportunity queries
+  steps:
+  - intent: job_opportunities
+  - action: utter_job_opportunities
+
+- rule: Guide on drafting a rental agreement
+  steps:
+  - intent: draft_rental_agreement
+  - action: utter_draft_steps
+
+- rule: Explain discussing rental details
+  steps:
+  - intent: discuss_rental_details
+  - action: utter_discuss_details
+
+- rule: Guide on preparing the rough draft
+  steps:
+  - intent: prepare_draft
+  - action: utter_prepare_draft
+
+- rule: Guide on adding clauses
+  steps:
+  - intent: add_clauses
+  - action: utter_add_clauses
+
+- rule: Explain using stamp paper
+  steps:
+  - intent: use_stamp_paper
+  - action: utter_use_stamp_paper
+
+- rule: Explain signing the agreement
+  steps:
+  - intent: sign_agreement
+  - action: utter_sign_agreement
+
+- rule: Guide on registering the deed
+  steps:
+  - intent: register_deed
+  - action: utter_register_deed
+
+- rule: Explain Stamp Duty
+  steps:
+  - intent: explain_stamp_duty
+  - action: utter_explain_stamp_duty
+
+- rule: Explain how Stamp Duty is calculated
+  steps:
+  - intent: calculate_stamp_duty
+  - action: utter_calculate_stamp_duty
+
+- rule: Explain the purpose of Stamp Duty
+  steps:
+  - intent: purpose_stamp_duty
+  - action: utter_purpose_stamp_duty
+
+- rule: Explain types of Stamp papers
+  steps:
+  - intent: types_of_stamp_paper
+  - action: utter_types_of_stamp_paper
+
+- rule: Guide on paying Stamp Duty
+  steps:
+  - intent: how_to_pay_stamp_duty
+  - action: utter_how_to_pay_stamp_duty
+
+- rule: Explain e-Stamping in Delhi
+  steps:
+  - intent: explain_e_stamping
+  - action: utter_explain_e_stamping
+
+- rule: Guide on getting e-Stamp paper
+  steps:
+  - intent: how_to_get_e_stamp
+  - action: utter_how_to_get_e_stamp
+
+- rule: Explain details required for e-Stamping
+  steps:
+  - intent: details_required_e_stamp
+  - action: utter_details_required_e_stamp
+
+- rule: Explain conventional Stamp paper status
+  steps:
+  - intent: conventional_stamp_paper
+  - action: utter_conventional_stamp_paper
+

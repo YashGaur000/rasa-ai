@@ -1,0 +1,115 @@
+version: "3.1"
+
+stories:
+- story: Greet and learn about Delhi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: city_description
+  - action: utter_city_description
+
+- story: Ask about Delhi's metro status
+  steps:
+  - intent: metro_city
+  - action: utter_metro_status
+
+- story: Ask about government buildings in Delhi
+  steps:
+  - intent: govt_buildings
+  - action: utter_govt_buildings
+
+- story: Ask about historical significance of Delhi
+  steps:
+  - intent: historical_significance
+  - action: utter_historical_places
+
+- story: Ask about Delhi's climate and activity
+  steps:
+  - intent: climate_activity
+  - action: utter_climate_activity
+
+- story: Ask about job opportunities in Delhi
+  steps:
+  - intent: job_opportunities
+  - action: utter_job_opportunities
+
+- story: User asks about drafting a rental agreement
+  steps:
+  - intent: draft_rental_agreement
+  - action: utter_draft_steps
+
+- story: User discusses rental details
+  steps:
+  - intent: discuss_rental_details
+  - action: utter_discuss_details
+
+- story: User asks about preparing the draft
+  steps:
+  - intent: prepare_draft
+  - action: utter_prepare_draft
+
+- story: User inquires about adding clauses
+  steps:
+  - intent: add_clauses
+  - action: utter_add_clauses
+
+- story: User asks about using stamp paper
+  steps:
+  - intent: use_stamp_paper
+  - action: utter_use_stamp_paper
+
+- story: User asks about signing the agreement
+  steps:
+  - intent: sign_agreement
+  - action: utter_sign_agreement
+
+- story: User asks about registering the deed
+  steps:
+  - intent: register_deed
+  - action: utter_register_deed
+
+- story: User asks about Stamp Duty
+  steps:
+  - intent: explain_stamp_duty
+  - action: utter_explain_stamp_duty
+
+- story: User inquires about how Stamp Duty is calculated
+  steps:
+  - intent: calculate_stamp_duty
+  - action: utter_calculate_stamp_duty
+
+- story: User asks about the purpose of Stamp Duty
+  steps:
+  - intent: purpose_stamp_duty
+  - action: utter_purpose_stamp_duty
+
+- story: User asks about types of Stamp papers
+  steps:
+  - intent: types_of_stamp_paper
+  - action: utter_types_of_stamp_paper
+
+- story: User asks how to pay Stamp Duty
+  steps:
+  - intent: how_to_pay_stamp_duty
+  - action: utter_how_to_pay_stamp_duty
+
+- story: User asks about e-Stamping in Delhi
+  steps:
+  - intent: explain_e_stamping
+  - action: utter_explain_e_stamping
+
+- story: User inquires about how to get e-Stamp paper
+  steps:
+  - intent: how_to_get_e_stamp
+  - action: utter_how_to_get_e_stamp
+
+- story: User asks what details are needed for e-Stamping
+  steps:
+  - intent: details_required_e_stamp
+  - action: utter_details_required_e_stamp
+
+- story: User inquires about conventional Stamp papers
+  steps:
+  - intent: conventional_stamp_paper
+  - action: utter_conventional_stamp_paper
+

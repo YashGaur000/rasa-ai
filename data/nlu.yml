@@ -1,0 +1,168 @@
+version: "3.1"
+
+nlu:
+- intent: city_description
+  examples: |
+    - Tell me about Delhi.
+    - Describe Delhi as a city.
+    - What makes Delhi special?
+    - Why is Delhi a famous city?
+
+- intent: metro_city
+  examples: |
+    - Is Delhi a metro city?
+    - Tell me about Delhi's metro status.
+    - Which cities were declared as Metros first?
+    - Is Delhi one of the first metro cities?
+
+- intent: govt_buildings
+  examples: |
+    - Does Delhi have important government buildings?
+    - Which government buildings are in Delhi?
+    - Why is Delhi the center of government buildings?
+    - Are there important buildings in Delhi?
+
+- intent: historical_significance
+  examples: |
+    - Is Delhi famous for historical monuments?
+    - Tell me about the historical importance of Delhi.
+    - Why is Delhi's past rich?
+    - Are there historical places in Delhi?
+
+- intent: climate_activity
+  examples: |
+    - What is the climate like in Delhi?
+    - Is Delhi's climate pleasant?
+    - Does Delhi have a lot of activity and buzz?
+    - Why is Delhi known for its active lifestyle?
+
+- intent: job_opportunities
+  examples: |
+    - Are there job opportunities in Delhi?
+    - Is Delhi a good place to move to for jobs?
+    - Why do people move to Delhi for jobs?
+    - Does Delhi have many career opportunities?
+
+- intent: draft_rental_agreement
+  examples: |
+    - How to draft a rental agreement?
+    - Tell me the steps to create a rental agreement.
+    - What is the process for drafting a rental agreement?
+    - How do I draft a rental agreement?
+    - Explain the steps for drafting a rental agreement.
+    - Guide me on preparing a rental agreement.
+
+- intent: discuss_rental_details
+  examples: |
+    - What details should I discuss before drafting a rental agreement?
+    - Should I discuss rent and security deposit before drafting an agreement?
+    - What are the important matters to discuss for a rental agreement?
+    - What maintenance charges should be included in the agreement?
+    - Tell me about discussing rental details like rent and deposit.
+
+- intent: prepare_draft
+  examples: |
+    - How do I prepare a rough draft for the rental agreement?
+    - What should I include in the draft for a rental agreement?
+    - Tell me how to make a draft for a rental agreement.
+    - What details are necessary in a rough draft for the agreement?
+
+- intent: add_clauses
+  examples: |
+    - What clauses should I add to a rental agreement?
+    - How do I add important clauses to the agreement?
+    - Tell me about adding clauses to the rental agreement.
+    - Why are clauses important in a rental agreement?
+
+- intent: use_stamp_paper
+  examples: |
+    - How do I use stamp paper for a rental agreement?
+    - What is the process for printing the draft on stamp paper?
+    - Tell me about purchasing and using stamp paper for a rental agreement.
+    - Should I use stamp paper for the agreement?
+
+- intent: sign_agreement
+  examples: |
+    - Who should sign the rental agreement?
+    - How do we sign the rental agreement?
+    - Is witness signature required for a rental agreement?
+    - Should both tenant and landlord sign the agreement?
+
+- intent: register_deed
+  examples: |
+    - How do I register the rental agreement?
+    - What is the process for registering a deed?
+    - Where do I register a rental agreement?
+    - Is registration at the Sub-Registrar's office necessary for the rental agreement?
+
+- intent: explain_stamp_duty
+  examples: |
+    - What is Stamp Duty?
+    - Explain Stamp Duty to me.
+    - Tell me about Stamp Duty.
+    - What does Stamp Duty mean?
+    - Can you explain Stamp Duty and its purpose?
+
+- intent: calculate_stamp_duty
+  examples: |
+    - How is Stamp Duty calculated?
+    - On what basis is Stamp Duty calculated?
+    - Tell me the process to calculate Stamp Duty.
+    - How do I determine the value of Stamp Duty for my transaction?
+
+- intent: purpose_stamp_duty
+  examples: |
+    - Why do we pay Stamp Duty?
+    - What is the purpose of paying Stamp Duty?
+    - Why is Stamp Duty necessary for agreements?
+    - Is Stamp Duty required for transactions?
+
+- intent: types_of_stamp_paper
+  examples: |
+    - What are the types of Stamp papers?
+    - Tell me about traditional and e-Stamp papers.
+    - How many types of Stamp papers exist?
+    - Explain the difference between traditional Stamp paper and e-Stamp paper.
+    - What is an e-Stamp paper?
+
+- intent: how_to_pay_stamp_duty
+  examples: |
+    - How do I pay Stamp Duty?
+    - What is the process for purchasing Stamp paper?
+    - How can I pay Stamp Duty to the Government?
+    - Is Stamp Duty paid by buying Stamp paper?
+    - How do I use Stamp paper to pay Stamp Duty?
+
+- intent: explain_e_stamping
+  examples: |
+    - What is e-Stamping in Delhi?
+    - Can you explain e-Stamping?
+    - Tell me about the e-Stamping system in Delhi.
+    - What is the process of e-Stamping in Delhi?
+    - How does e-Stamping work in Delhi?
+
+- intent: how_to_get_e_stamp
+  examples: |
+    - How can I get e-Stamp paper in Delhi?
+    - Where can I purchase e-Stamp paper?
+    - Tell me how to get e-Stamp paper in Delhi.
+    - What is the procedure for obtaining e-Stamp paper?
+    - How do I approach e-Stamping vendors in Delhi?
+
+- intent: details_required_e_stamp
+  examples: |
+    - What details are required for e-Stamping?
+    - What information do I need to provide for e-Stamping?
+    - What should I include in the application form for e-Stamping?
+    - What name and purpose should be provided for e-Stamping?
+    - What do I need to fill in the e-Stamping application form?
+
+- intent: conventional_stamp_paper
+  examples: |
+    - Are conventional Stamp papers still used in Delhi?
+    - Has Delhi stopped using conventional Stamp papers?
+    - What happened to the traditional Stamp paper system in Delhi?
+    - Is e-Stamping the only option in Delhi now?
+    - Can I still use traditional Stamp papers in Delhi?
+
+
