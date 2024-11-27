@@ -87,6 +87,22 @@ nlu:
     - How do we sign the rental agreement?
     - Is witness signature required for a rental agreement?
     - Should both tenant and landlord sign the agreement?
+    - Who signs first on the rental agreement?
+    - Can a rental agreement be signed electronically?
+    - Do both parties need to be present to sign the rental agreement?
+    - Can I sign the rental agreement without the landlord present?
+    - How do we complete the signature process for the agreement?
+    - Is it mandatory for the landlord to sign the agreement before the tenant?
+    - Should the rental agreement be signed in front of a notary?
+    - Can I sign the rental agreement if I am not in the same city as the landlord?
+    - What if one party refuses to sign the rental agreement?
+    - Is there a specific order in which signatures should be added to the agreement?
+    - Can a rental agreement be signed by a representative on behalf of the landlord or tenant?
+    - How do I confirm that both parties have signed the agreement correctly?
+    - Are electronic signatures accepted on rental agreements in Delhi?
+    - Is it necessary to have a witness when signing a rental agreement?
+    - How do I ensure the agreement is signed legally and properly?
+
 
 - intent: register_deed
   examples: |
@@ -109,6 +125,17 @@ nlu:
     - On what basis is Stamp Duty calculated?
     - Tell me the process to calculate Stamp Duty.
     - How do I determine the value of Stamp Duty for my transaction?
+    - What factors affect the calculation of Stamp Duty?
+    - How do I calculate Stamp Duty for property registration?
+    - Can you explain the steps to calculate Stamp Duty for a lease agreement?
+    - What is the formula for calculating Stamp Duty?
+    - Is Stamp Duty calculated based on the property value or rental amount?
+    - How do I calculate Stamp Duty for an agreement between friends?
+    - How do I determine the Stamp Duty for a commercial property?
+    - Is there a specific rate for calculating Stamp Duty in Delhi?
+    - Can you help me calculate the Stamp Duty for a property deal?
+    - How do I know if I'm paying the correct Stamp Duty?
+
 
 - intent: purpose_stamp_duty
   examples: |
@@ -116,6 +143,23 @@ nlu:
     - What is the purpose of paying Stamp Duty?
     - Why is Stamp Duty necessary for agreements?
     - Is Stamp Duty required for transactions?
+    - Can you explain why Stamp Duty is important in property deals?
+    - Why does the government charge Stamp Duty on documents?
+    - What is the reason behind paying Stamp Duty in legal agreements?
+    - What is the role of Stamp Duty in a rental agreement?
+    - Why do I need to pay Stamp Duty for a lease agreement?
+    - How does Stamp Duty help in verifying legal documents?
+    - Why is it mandatory to pay Stamp Duty for property transactions?
+    - Is Stamp Duty meant to make agreements legally valid?
+    - What does Stamp Duty signify in a legal contract?
+    - How does Stamp Duty protect the interests of both parties?
+    - Why is Stamp Duty an essential part of formalizing contracts?
+    - Is Stamp Duty needed for personal transactions like a gift deed?
+    - Does paying Stamp Duty help in property ownership verification?
+    - Why does the government require Stamp Duty for contract enforcement?
+    - How does Stamp Duty contribute to the legal recognition of documents?
+    - Is Stamp Duty important for the validity of a rental contract in court?
+
 
 - intent: types_of_stamp_paper
   examples: |
@@ -124,6 +168,23 @@ nlu:
     - How many types of Stamp papers exist?
     - Explain the difference between traditional Stamp paper and e-Stamp paper.
     - What is an e-Stamp paper?
+    - What is the difference between conventional Stamp paper and e-Stamp paper?
+    - Are there any other types of Stamp papers used in Delhi?
+    - Can you explain the various types of Stamp papers used for legal documents?
+    - Is there a specific type of Stamp paper for property transactions?
+    - Are traditional Stamp papers still being used in Delhi?
+    - What is the current status of traditional Stamp papers in Delhi?
+    - Can e-Stamp paper be used for all types of legal agreements?
+    - What is the advantage of using e-Stamp paper over traditional Stamp paper?
+    - How do I decide which type of Stamp paper to use for my agreement?
+    - What kind of Stamp paper is needed for property registration in Delhi?
+    - Is there a special Stamp paper for rental agreements in Delhi?
+    - Can Stamp papers be purchased online, and are they all e-Stamp papers now?
+    - Why is e-Stamp paper preferred over traditional Stamp paper in Delhi?
+    - Do Stamp papers differ based on the nature of the agreement?
+    - Are there different values for Stamp papers based on the document type?
+    - What is the difference between Stamp paper and e-Stamp paper in Delhi?
+    - How do I know which type of Stamp paper to use for my agreement?
 
 - intent: how_to_pay_stamp_duty
   examples: |
@@ -148,7 +209,23 @@ nlu:
     - Tell me how to get e-Stamp paper in Delhi.
     - What is the procedure for obtaining e-Stamp paper?
     - How do I approach e-Stamping vendors in Delhi?
+    - Where do I get e-Stamp paper for my rental agreement?
+    - Can I purchase e-Stamp paper online?
+    - How do I obtain e-Stamp paper for a legal document?
+    - Can you guide me on how to get e-Stamp paper in Delhi?
+    - What is the process for getting an e-Stamp in Delhi?
+    - How can I apply for e-Stamp paper for my rental agreement?
+    - What documents are needed to get e-Stamp paper?
+    - Is there a specific website to get e-Stamp paper in Delhi?
+    - How do I request e-Stamp paper for a property agreement?
+    - Can I get e-Stamp paper at the bank or only from authorized vendors?
+    - Where can I buy e-Stamp paper for my legal transactions?
+    - What is the time frame for getting e-Stamp paper in Delhi?
+    - Is it possible to get e-Stamp paper from the government office directly?
+    - What is the cost of e-Stamp paper in Delhi?
 
+
+#  add some more examples
 - intent: details_required_e_stamp
   examples: |
     - What details are required for e-Stamping?
@@ -156,7 +233,12 @@ nlu:
     - What should I include in the application form for e-Stamping?
     - What name and purpose should be provided for e-Stamping?
     - What do I need to fill in the e-Stamping application form?
+    - What should I include in the e-Stamping application form?
+    - What information should I include in the e-Stamping application form?
+    - What should be included in the e-Stamping application form?
+    - What should I include in the e-Stamping application form?
 
+#  add some more examples
 - intent: conventional_stamp_paper
   examples: |
     - Are conventional Stamp papers still used in Delhi?
@@ -164,5 +246,12 @@ nlu:
     - What happened to the traditional Stamp paper system in Delhi?
     - Is e-Stamping the only option in Delhi now?
     - Can I still use traditional Stamp papers in Delhi?
-
-
+    - How can I still use traditional Stamp papers in Delhi?
+    - Do I need to use e-Stamp paper to register a deed in Delhi?
+    - Is Delhi droped the traditional Stamp paper system?
+    - Is conventional stamp paper is no longer used in delhi?
+    - What is the status of the Stamp paper system in Delhi?
+    - What is the current status of Stamp paper in Delhi?
+    - What is the future of Stamp paper in Delhi?
+    - What is the future of e-Stamp paper in Delhi?
+    - What is the future of the Stamp paper system in Delhi?
